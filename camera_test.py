@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 from picamera2 import Picamera2
-from PIL import Image, ImageTk
+from PIL import Image
+from PIL import ImageTk
 import cv2 # picamera2 이미지를 PIL 이미지로 변환하기 위해 사용 (선택 사항)
 import numpy as np # OpenCV와 함께 사용
 import pytesseract # OCR 라이브러리
