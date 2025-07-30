@@ -20,7 +20,7 @@ time.sleep(2)
 # 저장할 파일 경로 설정
 # 현재 시간을 이용해 파일명을 동적으로 생성하여 겹치지 않도록 합니다.
 current_time = time.strftime("%Y%m%d_%H%M%S")
-save_path = f"/home/pi/Desktop/images/image_{current_time}.jpg"
+save_path = f"/home/user/Desktop/images/image_{current_time}.jpg"
 
 # 폴더가 존재하지 않으면 생성
 # 이전에 `mkdir` 명령어로 직접 만드셨다면 이 부분은 불필요하지만,
