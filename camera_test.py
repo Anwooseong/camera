@@ -151,7 +151,7 @@ class CameraApp:
                 messagebox.showerror("음성 재생 오류", f"텍스트를 음성으로 변환하거나 재생하는 중 오류가 발생했습니다: {e}")
                 print(f"음성 변환/재생 중 오류: {e}")
         else:
-            messagebox.showwarning("내용 없음", "OCR로 추출된 텍스트가 없어 음성 재생을 건너뜀.")
+            messagebox.showwarning("내용 없음", "OCR로 추출된 텍스트가 없어 음성 재생을 건너뜀.") 
 
 
     def on_closing(self, event=None):
